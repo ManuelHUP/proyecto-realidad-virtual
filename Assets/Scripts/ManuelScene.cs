@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PortalScene1 : MonoBehaviour
+public class ManuelScene : MonoBehaviour
 {
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("manuel");
+            SceneManager.LoadScene("FlatScene");
         }
     }
 }
