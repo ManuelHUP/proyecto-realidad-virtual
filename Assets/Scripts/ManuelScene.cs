@@ -9,7 +9,7 @@ public class PortalScene1 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("FlatScene");
+            SceneManager.LoadScene("manuel");
         }
     }
 }
