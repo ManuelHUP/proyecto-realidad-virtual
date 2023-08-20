@@ -5,11 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lobby.unity
     guid: da9a834a8bd84fc4eb6912ca34723891
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FlatScene.unity
     guid: f50e25796d24add44ae18f291a2dd402
+  - enabled: 1
+    path: Assets/Scenes/FlatMaria.unity
+    guid: fd8932b189b6c324db48323ffb9d3e00
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: af690a9c1467b2e4eb7be4ce709fed97, type: 2}
