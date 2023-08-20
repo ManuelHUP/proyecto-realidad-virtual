@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: utec
-  productName: pvr002
+  productName: FINAL
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -137,8 +137,6 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 11400000, guid: 8119a6b6aafe3ef44851d3fc72d775d5, type: 2}
-  - {fileID: 11400000, guid: af690a9c1467b2e4eb7be4ce709fed97, type: 2}
-  - {fileID: -1204918457887285829, guid: 9609215e63a5d814ebccf3ad5d3880a2, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -158,7 +156,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.utec.pvr002
+    Android: com.utec.FINAL
   buildNumber:
     Standalone: 0
     VisionOS: 0

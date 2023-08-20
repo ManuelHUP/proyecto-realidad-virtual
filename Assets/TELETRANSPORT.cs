@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WilbertScene : MonoBehaviour
+public class TELETRANSPORT : MonoBehaviour
 {
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if(collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Wilbert");
+            SceneManager.LoadScene("Lobby");
         }
     }
 }
